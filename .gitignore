@@ -1,0 +1,12 @@
+#Mac
+.DS_Store
+
+#Eclipse
+.settings/
+.buildpath
+.project
+
+#Other
+config/
+googleAnalytics.php
+facebookPixel.php
