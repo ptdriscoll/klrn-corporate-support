@@ -62,7 +62,7 @@ include 'email.php';
                 <a class="nav-link" href="<?php echo $root; ?>downloads/2018-Media-Kit.pdf">Media Kit</a>
               </li>           
             </ul>
-            <a href="#footer" id="become_sponsor" type="button" class="scroll btn btn-primary">Become a Sponsor</a>
+            <a href="#footer" id="become_sponsor" class="scroll btn btn-primary">Become a Sponsor</a>
           </div>
         </nav>
       </div>  
