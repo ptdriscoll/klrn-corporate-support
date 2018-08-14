@@ -1,7 +1,7 @@
 <?php 
 //in this block, fill in content variables, starting with the html meta data
-$title = 'KLRN TV Corporate Support | No one else does what we do';
-$description = 'We are PBS for South Central Texas. We are America\'s largest classroom, the largest stage for the arts, and a trusted window to the world - for over 50 years.';
+$title = 'KLRN TV: Become a Sponsor | On-air underwriting samples';
+$description = "Sometimes the best way to understand something is to see it for yourself. View some underwriting spots we've aired on KLRN - all categorized for your convenience.";
 ?>
 
 <?php include '../includes/header.php'; ?>

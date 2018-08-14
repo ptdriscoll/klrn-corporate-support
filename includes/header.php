@@ -1,7 +1,7 @@
 <?php 
 //get root folder
 $protocol = $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://';
-$root = $protocol . $_SERVER['SERVER_NAME'].'/corporate-support/';
+$root = $protocol . $_SERVER['SERVER_NAME'].'/sponsor/';
 
 //get root for includes folder in file system, which is different between localhost and live servers  
 $doc_root = $_SERVER['DOCUMENT_ROOT'];
@@ -59,7 +59,7 @@ include 'email.php';
                 <a class="nav-link" href="<?php echo $root; ?>examples/">Examples</a>
               </li>
               <li id="media-kit" class="nav-item">
-                <a class="nav-link" href="<?php echo $root; ?>downloads/2018-Media-Kit.pdf">Media Kit</a>
+                <a class="nav-link" href="<?php echo $root; ?>downloads/2019-KLRN-Media-Kit.pdf">Media Kit</a>
               </li>           
             </ul>
             <a href="#footer" id="become_sponsor" class="scroll btn btn-primary">Become a Sponsor</a>
