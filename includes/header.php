@@ -10,7 +10,7 @@ else $doc_includes = $doc_root.'/includes/';
 
 //get page path to synch active class in nav
 $uri = $_SERVER['REQUEST_URI'];
-$page = str_replace('/corporate-support/', '', $uri);
+$page = str_replace('/sponsor/', '', $uri);
 
 //add contact form app
 include 'email.php';
