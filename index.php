@@ -48,7 +48,7 @@ $description = 'We are PBS for South Central Texas. We are America\'s largest cl
         <p class="lead">Our viewers are the most educated, influential, cultural, and community-minded audience in South Central Texas.</p>
       </div>
       
-      <div id="audienceCarousel" class="carousel slide" data-ride="" data-pause="false">
+      <div id="audienceCarousel" class="container carousel slide" data-ride="" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#audienceCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#audienceCarousel" data-slide-to="1" class=""></li>
@@ -109,7 +109,7 @@ $description = 'We are PBS for South Central Texas. We are America\'s largest cl
         <p class="lead">There are many ways to get your message across to our large, highly desirable audience. Our viewers value your partnership with us, building a strong connection to you and the community - which often results in our viewers supporting your business.</p>
       </div>
       
-      <div id="sponsorCarousel" class="carousel slide" data-ride="" data-pause="false">
+      <div id="sponsorCarousel" class="container carousel slide" data-ride="" data-pause="false">
         <ol class="carousel-indicators">
           <li data-target="#sponsorCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#sponsorCarousel" data-slide-to="1" class=""></li>
