@@ -10,7 +10,7 @@ The email application uses the PHPMailer library (see link under References), wh
 
 ### Live site
 
-- https://pbs.klrn.org/corporate-support/
+- https://pbs.klrn.org/sponsor/
 
 ### References
 
