@@ -24,11 +24,11 @@ $pageClassName = 'home';
     <div class="container">
       <blockquote class="blockquote text-center">
         <img class="quote" src="assets/img/quote.png">
-        <p class="mb-0">People really feel connected. If you're watching PBS or if you're watching KLRN, you're watching it for a reason and you're really connecting with those personalities or you're connecting with that type of programming. It is definitely a niche of individuals and [SWBC has] been able to really tap into&nbsp;that&nbsp;niche.</p><br>
-        <img class="logo_inline" src="assets/img/logo-dwbc.png"> 
-        <footer class="blockquote-footer text-right">Deborah Gray Marino<br><cite title="Source Title">Vice President of Community Relations</cite>               
+        <p class="mb-0">KLRN has provided an avenue for people of all ages to see what is out there for sewing, crafting and embroidery.  It is my primary source of marketing because it reaches a broad spectrum audience who are interested in my services and projects.  The art of sewing, embroidery and crafting is a niche market and KLRN can reach that market through these programs.</p><br>
+        <img class="logo_inline" src="assets/img/logo-pattys.png"> 
+        <footer class="blockquote-footer text-right">Patty Woods<br><cite title="Source Title">Owner of Patty's Sewing Center</cite>               
         </footer>
-        <img class="logo_centered" src="assets/img/logo-dwbc.png">
+        <img class="logo_centered" src="assets/img/logo-pattys.png">
       </blockquote>    
     </div>
     
