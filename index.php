@@ -2,6 +2,7 @@
 //in this block, fill in content variables, starting with the html meta data
 $title = 'KLRN TV: Become a Sponsor | No one else does what we do';
 $description = 'We are PBS for South Central Texas. We are America\'s largest classroom, the largest stage for the arts, and a trusted window to the world - for over 50 years.';
+$pageClassName = 'home';
 ?>
 
 <?php include 'includes/header.php'; ?>

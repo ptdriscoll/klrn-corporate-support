@@ -34,7 +34,7 @@ include 'email.php';
 
   </head>
 
-  <body class="home">
+  <body class="<?php $pageClassName; ?>">
   
     <!-- HEADER -->
   
@@ -60,7 +60,10 @@ include 'email.php';
               </li>
               <li id="media-kit" class="nav-item">
                 <a class="nav-link" href="<?php echo $root; ?>downloads/2019-KLRN-Media-Kit.pdf">Media Kit</a>
-              </li>           
+              </li>  
+              <li id="sponsors" class="nav-item<?php if ($page == 'examples/') echo ' active'; ?>">
+                <a class="nav-link" href="<?php echo $root; ?>our-sponsors/">Our Sponsors</a>
+              </li>              
             </ul>
             <a href="#footer" id="become_sponsor" class="scroll btn btn-primary">Become a Sponsor</a>
           </div>
