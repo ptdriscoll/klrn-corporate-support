@@ -3,10 +3,9 @@
 $protocol = $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://';
 $root = $protocol . $_SERVER['SERVER_NAME'].'/sponsor/';
 
-//get root for includes folder in file system, which is different between localhost and live servers  
+//get root for includes folder within site root  
 $doc_root = $_SERVER['DOCUMENT_ROOT'];
-if ($root === 'http://localhost/corporate-support/') $doc_includes = $doc_root.'/corporate-support/includes/';
-else $doc_includes = $doc_root.'/includes/';
+$doc_includes = $doc_root.'/sponsor/includes/';
 
 //get page path to synch active class in nav
 $uri = $_SERVER['REQUEST_URI'];
@@ -28,9 +27,9 @@ include 'email.php';
 
     <!-- CSS -->
     <link href="<?php echo $root; ?>assets/css/styles.css" rel="stylesheet">
-    
-    <?php if (file_exists($doc_includes.'googleAnalytics.php')) include 'googleAnalytics.php'; ?>    
-    <?php if (file_exists($doc_includes.'facebookPixel.php')) include 'facebookPixel.php'; ?>      
+
+    <?php if (file_exists($doc_includes.'googleAnalytics.php')) include $doc_includes.'googleAnalytics.php'; ?>
+    <?php if (file_exists($doc_includes.'facebookPixel.php')) include $doc_includes.'facebookPixel.php'; ?>   
 
   </head>
 
