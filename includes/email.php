@@ -20,7 +20,7 @@ $message_posted_at = 'Message posted at Corporate Support Website';
 
 $response_success = '<div id="email_response"><h2>Thank You!</h2><p class="lead">We will be in touch soon.</p></div>';
 
-$response_error = '<div id="email_response"><h2>Sorry, there was an error.</h2><p class="lead">Please try again, or call Valerie Darling at (210)&nbsp;270&#8209;9000.</p></div>';
+$response_error = '<div id="email_response"><h2>Sorry, there was an error.</h2><p class="lead">Please try again, or call us at (210)&nbsp;270&#8209;9000.</p></div>';
 
 //set from config/email.php, but can be set or overridden here
 $mail->setFrom($configs['setFromEmail'], $configs['setFromName']);
