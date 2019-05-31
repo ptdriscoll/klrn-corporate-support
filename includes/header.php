@@ -9,6 +9,7 @@ $doc_includes = $doc_root.'/sponsor/includes/';
 
 //get page path to synch active class in nav
 $uri = $_SERVER['REQUEST_URI'];
+$uri = strtok($uri, "?");
 $page = str_replace('/sponsor/', '', $uri);
 
 //add contact form app
