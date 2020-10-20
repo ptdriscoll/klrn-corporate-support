@@ -14,7 +14,7 @@
       </div>
 
       <?php if ($sent) echo $response; ?>      
-      <img  src="<?php echo $root ?>assets/img/loader.svg" id="submit_loader" class="loader d-none"> 
+      <img  src="<?php echo $root ?>/assets/img/loader.svg" id="submit_loader" class="loader d-none"> 
       
       <?php if (!$sent) : ?>          
       <form id="contact_us" method="post" 
@@ -53,6 +53,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <?php if ($page == 'examples/') echo '<script src="https://www.youtube.com/player_api"></script>'; ?>
-    <script src="<?php echo $root; ?>assets/js/scripts.js"></script>
+    <script src="<?php echo $root; ?>/assets/js/scripts.js"></script>
   </body>
 </html>
