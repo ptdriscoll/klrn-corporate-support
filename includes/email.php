@@ -25,7 +25,8 @@ $response_error = '<div id="email_response"><h2>Sorry, there was an error.</h2><
 //set from config/email.php, but can be set or overridden here
 $mail->setFrom($configs['setFromEmail'], $configs['setFromName']);
 $mail->addAddress($configs['addAddress']);
-$mail->addBCC($configs['addBCC']);
+$mail->addBCC($configs['addBCC1']);
+$mail->addBCC($configs['addBCC2']);
 $mail->Host = $configs['host'];
 $mail->Port = $configs['port'];
 $mail->SMTPSecure = $configs['smtpSecure'];
