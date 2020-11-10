@@ -59,7 +59,7 @@ include 'email.php';
                 <a class="nav-link" href="<?php echo $root; ?>/examples/">Examples</a>
               </li>
               <li id="media-kit" class="nav-item">
-                <a class="nav-link" href="<?php echo $root; ?>/downloads/2019-KLRN-Media-Kit.pdf">Media Kit</a>
+                <a class="nav-link" href="<?php echo $root; ?>/downloads/2020-KLRN-Media-Kit.pdf">Media Kit</a>
               </li>  
               <li id="sponsors" class="nav-item<?php if ($page == 'examples/') echo ' active'; ?>">
                 <a class="nav-link" href="<?php echo $root; ?>/our-sponsors/">Our Sponsors</a>
