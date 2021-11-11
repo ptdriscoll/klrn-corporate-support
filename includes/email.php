@@ -13,7 +13,7 @@ if (file_exists(dirname(__DIR__).'/config/email.php')) {
 }
 
 $mail = new PHPMailer(); //add true parameter to enable exceptions
-$mail->SMTPDebug = 2; //options are 0 for off, and 1,2,3,4
+$mail->SMTPDebug = 0; //options are 0 for off, and 1,2,3,4
 
 //custom settings
 $message_posted_at = 'Message posted at Corporate Support Website';
@@ -25,8 +25,8 @@ $response_error = '<div id="email_response"><h2>Sorry, there was an error.</h2><
 //set from config/email.php, but can be set or overridden here
 $mail->setFrom($configs['setFromEmail'], $configs['setFromName']);
 $mail->addAddress($configs['addAddress']);
-$mail->addBCC($configs['addBCC1']);
-$mail->addBCC($configs['addBCC2']);
+//$mail->addBCC($configs['addBCC1']);
+//$mail->addBCC($configs['addBCC2']);
 $mail->Host = $configs['host'];
 $mail->Port = $configs['port'];
 $mail->SMTPSecure = $configs['smtpSecure'];

@@ -3,9 +3,8 @@
 $title = 'KLRN TV: Become a Sponsor | On-air underwriting samples';
 $description = "Sometimes the best way to understand something is to see it for yourself. View some underwriting spots we've aired on KLRN - all categorized for your convenience.";
 $pageClassName = 'examples';
+include '../includes/header.php';
 ?>
-
-<?php include '../includes/header.php'; ?>
    
     <!-- TITLE -->
     

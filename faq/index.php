@@ -3,9 +3,8 @@
 $title = 'KLRN TV: Become a Sponsor | Frequently Asked Questions';
 $description = 'Find answers to frequently asked questions about KLRN sponsorships, such as FCC regulations, tailoring packages to fit your needs, discounts and tax deductions.';
 $pageClassName = 'faq';
+include '../includes/header.php';
 ?>
-
-<?php include '../includes/header.php'; ?>
    
     <!-- TITLE -->
     

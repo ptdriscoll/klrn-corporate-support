@@ -3,9 +3,8 @@
 $title = 'KLRN TV: Become a Sponsor | No one else does what we do';
 $description = 'We are PBS for South Central Texas. We are America\'s largest classroom, the largest stage for the arts, and a trusted window to the world - for over 50 years.';
 $pageClassName = 'home';
+include 'includes/header.php';
 ?>
-
-<?php include 'includes/header.php'; ?>
    
     <!-- HERO -->
     
