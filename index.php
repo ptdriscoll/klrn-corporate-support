@@ -1,7 +1,7 @@
 <?php 
 //in this block, fill in content variables, starting with the html meta data
 $title = 'KLRN TV: Become a Sponsor | No one else does what we do';
-$description = 'We are PBS for South Central Texas. We are America\'s largest classroom, the largest stage for the arts, and a trusted window to the world - for over 50 years.';
+$description = 'We are PBS for South Central Texas. We are America\'s largest classroom, the largest stage for the arts, and a trusted window to the world - for over 60 years.';
 $pageClassName = 'home';
 include 'includes/header.php';
 ?>
@@ -12,7 +12,7 @@ include 'includes/header.php';
       <div class="container">
         <h1 class="display-4">No one else does what we&nbsp;do</h1>
         <p class="lead">We are PBS for South Central Texas.</p> 
-        <p class="lead">We get kids ready to learn and we give you opportunities to explore the world around you. We have been a trusted window to the world for&nbsp;over&nbsp;50&nbsp;years.</p>
+        <p class="lead">We get kids ready to learn and we give you opportunities to explore the world around you. We have been a trusted window to the world for&nbsp;over&nbsp;60&nbsp;years.</p>
         <a href="#footer" class="scroll ghost btn btn-lg btn-primary">Become a Sponsor</a>
       </div>
       <figcaption class="figure-caption">Fiesta Party | photo by Nan Palmero</figcaption>
