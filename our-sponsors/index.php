@@ -9,7 +9,7 @@ include '../includes/header.php';
     <!-- TITLE -->
     
     <div class="title text-center">
-        <h1 class="display-4">KLRN Amigos</h1>
+        <h1 class="display-4">KLRN Sponsors</h1>
     </div>
    
     <!-- SPONSOR CARDS -->
