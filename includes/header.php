@@ -30,7 +30,6 @@ include 'email.php';
     <link href="<?php echo $root; ?>/assets/css/styles.css" rel="stylesheet">
 
     <?php if (file_exists($doc_includes.'googleAnalytics.php')) include $doc_includes.'googleAnalytics.php'; ?>
-    <?php if (file_exists($doc_includes.'facebookPixel.php')) include $doc_includes.'facebookPixel.php'; ?>   
 
   </head>
 
